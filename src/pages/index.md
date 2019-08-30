@@ -4,25 +4,6 @@ title: Great coffee with a conscience
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
-sections:
-  - type: carousel
-    header: Image Gallery
-    template: carousel.html
-    images:
-      - images/image01.png
-      - images/image02.png
-      - images/image03.png
-  - type: spotlight
-    header: Spotlight
-    template: spotlight.html
-    text: Hello World
-  - type: carousel
-    header: Image Gallery
-    template: carousel.html
-    images:
-      - images/image04.png
-      - images/image05.png
-      - images/image06.png
 mainpitch:
   title: Why Kaldi
   description: >
@@ -30,6 +11,28 @@ mainpitch:
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
+blog:
+  - Making sense of the SCAA’s new Flavor Wheel
+  - A beginners’ guide to brewing with Chemex
+sections:
+  - header: Image Gallery
+    images:
+      - images/image01.png
+      - images/image02.png
+      - images/image03.png
+    template: carousel.html
+    type: carousel
+  - header: Spotlight
+    template: spotlight.html
+    text: Hello World
+    type: spotlight
+  - header: Image Gallery
+    images:
+      - images/image04.png
+      - images/image05.png
+      - images/image06.png
+    template: carousel.html
+    type: carousel
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
@@ -87,3 +90,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
