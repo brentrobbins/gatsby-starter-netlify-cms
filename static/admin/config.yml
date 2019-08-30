@@ -47,6 +47,7 @@ collections:
             searchFields: ["title"]
             valueField: "title"
             displayFields: ["title"]
+            multiple: true
           - label: "Home Section"
             name: "sections"
             widget: "list"
