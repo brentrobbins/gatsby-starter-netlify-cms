@@ -45,7 +45,7 @@ collections:
             widget: "relation"
             collection: "blog"
             searchFields: ["title"]
-            valueField: "title"
+            valueField: ["title","data","description"]
             displayFields: ["title"]
             multiple: true
           - label: "Home Section"
