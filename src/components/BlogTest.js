@@ -21,7 +21,7 @@ const BlogTest = ({blog}) => {
   )
   console.log({allMarkdownRemark})
   const test = allMarkdownRemark.edges.filter(f => blog.includes(f.node.frontmatter.title))
-  console.log(test)
+  console.log(test.sort((a, b) => (a.node.frontmatter.title > b.node.frontmatter.title) ? 1 : -1))
   return (
     <div>
       <h1>test</h1>
